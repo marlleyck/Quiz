@@ -1,3 +1,38 @@
+@media (max-width: 625px) {
+    .question {
+        width: 400px !important;
+        font-size: 22px !important;
+    }
+
+    .answer {
+        width: 400px !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 415px) {
+    .question {
+        width: 250px !important;
+        font-size: 24px !important;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    .answer {
+        width: 400px !important;
+        justify-content: center !important;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+
 @font-face {
     font-family: poppins;
     src: url(fonts/Poppins/Poppins-Regular.ttf);
