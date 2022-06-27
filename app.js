@@ -74,7 +74,7 @@ const question3 = () => {
         .innerHTML = 'Lorena'
 
     const op4 = document.getElementById('op4')
-        .innerHTML = 'Antonia da goiaba'
+        .innerHTML = 'Antonia'
 }
 
 const question4 = () => {
@@ -91,7 +91,7 @@ const question4 = () => {
         .innerHTML = 'Cinza'
 
     const op4 = document.getElementById('op4')
-        .innerHTML = 'Nenhuma das opções'
+        .innerHTML = 'Nenhuma'
 }
 
 const question5 = () => {
