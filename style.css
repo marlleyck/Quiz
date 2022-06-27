@@ -1,0 +1,51 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    
+}
+
+h1, h2 {
+    font-family: poppins;
+
+    text-align: center;
+    color: white;
+}
+
+.question {
+    width: 600px;
+    height: 200px;
+    font-family: poppins;
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(22, 22, 26, 0.5);
+    border: 1px solid white;
+}
+
