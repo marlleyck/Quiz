@@ -18,6 +18,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    overflow: hidden;
     position: relative;
     
 }
@@ -41,11 +42,41 @@ h1, h2 {
     flex-direction: column;
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     background-color: rgba(22, 22, 26, 0.5);
     border: 1px solid white;
+    backdrop-filter: blur(7px);
 }
+
+.answer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    width: 600px;
+
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.opcao {
+    font-family: poppins;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #16161A;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+
+    user-select: none;
+    cursor: pointer;
+}
+
 
